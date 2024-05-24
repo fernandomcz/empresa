@@ -1,0 +1,48 @@
+package unipacifico.edu.empresa.logica;
+
+
+public class Convenio {
+    private int numeroDeConvenio;
+    private String fechaInicio;
+    private String fechaFin;
+    private String estado;
+    
+    public Convenio(int numeroDeConvenio,String fechaIncio, String fechaFin, String estado){
+        this.numeroDeConvenio = numeroDeConvenio;
+        this.fechaInicio = fechaInicio;
+        this.fechaFin = fechaFin;
+        this.estado = estado;    
+    }    
+
+    public int getNumeroDeConvenio() {
+        return numeroDeConvenio;
+    }
+
+    public void setNumeroDeConvenio(int numeroDeConvenio) {
+        this.numeroDeConvenio = numeroDeConvenio;
+    }
+
+    public String getFechaInicio() {
+        return fechaInicio;
+    }
+
+    public void setFechaInicio(String fechaInicio) {
+        this.fechaInicio = fechaInicio;
+    }
+
+    public String getFechaFin() {
+        return fechaFin;
+    }
+
+    public void setFechaFin(String fechaFin) {
+        this.fechaFin = fechaFin;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+    
